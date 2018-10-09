@@ -1,5 +1,5 @@
-package io.chris.training;
-public class Bike extends Vehicle{
+package io.chris.training.JavaBasic;
+public class Bike{
     protected String wheelShape;
     protected int wheelNum;
     protected String seatShape;
@@ -10,10 +10,6 @@ public class Bike extends Vehicle{
         this.seatShape=seatShape;
     }
 
-    //second method
-    //public void getWS(String wheelShape){
-//        this.wheelShape=wheelShape;
-//    }
 
     public String getWheelShape(){
         return wheelShape;

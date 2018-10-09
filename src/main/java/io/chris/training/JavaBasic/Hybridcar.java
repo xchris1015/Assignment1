@@ -1,4 +1,4 @@
-package io.chris.training;
+package io.chris.training.JavaBasic;
 public class Hybridcar extends Car {
 
     protected String carType;

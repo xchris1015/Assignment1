@@ -1,4 +1,4 @@
-package io.chris.training;
+package io.chris.training.JavaBasic;
 public class Bicycle extends Bike{
     private int pedalNum;
 
