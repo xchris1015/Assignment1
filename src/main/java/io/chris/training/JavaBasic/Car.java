@@ -1,5 +1,5 @@
 package io.chris.training.JavaBasic;
-public class Car implements Vehicle,Ship{
+public class Car implements Vehicle{
 
     protected float miles;
     protected double years;
@@ -13,10 +13,8 @@ public class Car implements Vehicle,Ship{
         System.out.println("This car can move");
     }
 
-    @Override
-    public void checkFloat() {
-        System.out.println("This is not a ship.");
-    }
+    public Car(){}
+
 
     public Car(float ml, double years, String maker, double price, double turbo, int mPH){
         this.miles = ml;
